@@ -1,0 +1,6 @@
+1. Handle with custom exception in controller class   --done
+2. Validate Rest Calls / data  -- done
+3. Content Negotiation
+4. Spring basic security of api
+5. One to many/ many  to one relationship
+6. Api versioning
