@@ -6,6 +6,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
 @Entity
@@ -20,7 +22,8 @@ public class Employee {
     @Column(name="EMPLOYEE_NAME")
     private String name;
 
-    @Size(min = 1000, max = 9999, message = "Please enter salary between 1000 and 9999")
+    @Min(1000)
+    @Max(9999)
     @Column(name="EMPLOYEE_SALARY")
     private Integer salary;
 
