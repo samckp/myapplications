@@ -1,4 +1,4 @@
-# MyApplications 
+# Springboot REST Api with JPA, MySQL/H2 Database 
 
 1. SpringBoot REST Api
 2. JPA with MySQL and H2 Database
