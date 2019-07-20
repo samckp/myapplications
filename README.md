@@ -8,3 +8,5 @@
 6. H2 DB url: http://localhost:8080/h2/
 7. Custom Exception Handaled. (extends ResponseEntityExceptionHandler)
 8. HAL Browser added to monitor API. http://localhost:8080/browser/index.html#/
+
+@ControllerAdvice and extends ResponseEntityExceptionHandler used for Global exception handler.
