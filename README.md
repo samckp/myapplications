@@ -11,16 +11,17 @@
 
 @ControllerAdvice and extends ResponseEntityExceptionHandler used for Global exception handler.
 
-#Monitoring : 
+#Monitoring : <br/>
 Download Promethous and Grafana
 
 #Promethous: 
-cmd prompt > perometheus.exe --config.file=emp-app.yml
+cmd prompt > perometheus.exe --config.file=emp-app.yml <br/>
 http://localhost:9090/graph  --Promethous GUI for query
 
 #Grafana :
 
 cmd prompt > grafana-server.exe
+<br/>
 http://localhost:3000
 
 
