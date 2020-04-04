@@ -10,3 +10,17 @@
 8. HAL Browser added to monitor API. http://localhost:8080/browser/index.html#/
 
 @ControllerAdvice and extends ResponseEntityExceptionHandler used for Global exception handler.
+
+#Monitoring : 
+Download Promethous and Grafana
+
+#Promethous: 
+cmd prompt > perometheus.exe --config.file=emp-app.yml
+http://localhost:9090/graph  --Promethous GUI for query
+
+#Grafana :
+
+cmd prompt > grafana-server.exe
+http://localhost:3000
+
+
