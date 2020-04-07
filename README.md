@@ -14,11 +14,11 @@
 #Monitoring : <br/>
 Download Promethous and Grafana
 
-#Promethous: 
+#Promethous: <br/>
 cmd prompt > perometheus.exe --config.file=emp-app.yml <br/>
 http://localhost:9090/graph  --Promethous GUI for query
 
-#Grafana :
+#Grafana : 
 
 cmd prompt > grafana-server.exe
 <br/>
