@@ -51,6 +51,9 @@ public class EmployeeRestController {
     public void updateEmp(@RequestBody Employee emp, @PathVariable(value = "id") Long empId){
 
         Optional<Employee> employee = employeeRepository.findById(empId);
+
+        emp.setId(empId);
+
         if(employee != null){
             employeeRepository.save(emp);
         }
